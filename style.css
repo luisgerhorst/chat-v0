@@ -1,0 +1,142 @@
+/* Allgemein */
+
+body {
+    background: rgb(246,248,250) url(background.png);
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Courier, monospace;
+    color: rgb(85,85,95);
+    text-shadow: 0 1px #fff;
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    }
+    
+a {
+    text-decoration: underline;
+    color: rgb(85,85,95);
+    }
+    
+#wrapper {
+    width: 500px;
+    margin: 0 auto;
+    }
+    
+
+/* Chat */
+    
+#chat {
+    float: left;
+    width: 500px;
+    padding: 50px 0 35px 0;
+    }
+    
+#chat .entry {
+    float: left;
+    padding-bottom: 15px;
+    width: 500px;
+    }
+    
+#chat .name {
+    float: left;
+    width: 110px;
+    text-align: right;
+    }
+    
+#chat .content {
+    float: left;
+    width: 370px;
+    padding-left: 20px;
+    text-align: left;
+    }
+    
+#chat .message {
+    display: inline;
+    }
+    
+#chat .time {
+    color: rgb(160,160,160);
+    opacity: 0.0;
+    display: inline;
+    }
+    
+#chat .entry:hover .time {
+    opacity: 1.0;
+    }
+    
+    
+/* New */
+    
+#new {
+    float: left;
+    width: 500px;
+    padding: 50px 0 50px 0;
+    border-top: 1px solid rgb(196,198,200);
+    box-shadow: inset 0 1px #fff, 0 -1px #fff;
+    }
+    
+    /* Name & Content */
+    
+#new input {
+    float: left;
+    font-family: Courier, monospace;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 15px;
+    height: 25px;
+    padding: 5px;
+    color: rgb(85,85,95);
+    -webkit-appearance: none; /* remove iOS inner shadow */
+    resize: none;
+    background: rgb(236,236,236) url(background-form.png);
+    border: 1px solid rgb(196,198,200);
+    box-shadow: 0 0 0 1px #fff, inset 0 0 0 1px rgb(230,230,230);
+    text-shadow: 0 1px #fff;
+    transition-property: box-shadow, border, background;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    -webkit-transition-property: box-shadow, border, background;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-property: box-shadow, border, background;
+    -moz-transition-duration: 0.1s;
+    -moz-transition-timing-function: linear;
+    -o-transition-property: box-shadow, border, background;
+    -o-transition-duration: 0.1s;
+    -o-transition-timing-function: linear;
+    }
+    
+#new input:focus {
+    outline: none; /* remove Safari blue glow */
+    background: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+    }
+    
+#new input::input-placeholder, #new input::-webkit-input-placeholder, #new input::-moz-input-placeholder, #new input::-o-input-placeholder {
+    color: rgb(140,140,140);
+    }
+    
+    /* Name */
+    
+#new .name {
+    width: 110px;
+    text-align: right;
+    padding-left: 2px;
+    border-radius: 5px 0 0 5px;
+    }
+    
+    /* Content */
+    
+#new .message {
+    width: 370px;
+    min-height: 25px;
+    max-height: 25px;
+    margin-left: 20px;
+    margin-bottom: -8px;
+    border-radius: 0 5px 5px 0;
+    }
