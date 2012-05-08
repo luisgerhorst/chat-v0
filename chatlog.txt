@@ -22,3 +22,54 @@
 <div class="entry"><div class="name">Luis Klaus Gerhorstststst:</div><div class="content"><span class="message">Testing.</span><span class="time"> 16:18, 1. May 2012</span></div></div>
 <div class="entry"><div class="name">Luis Klaus Gerhorstststst:</div><div class="content"><span class="message">Luis Klaus GerhorststststLuis Klaus GerhorststststLuis Klaus GerhorststststLuis Klaus GerhorststststLuis Klaus GerhorststststLuis Klaus GerhorststststLuis Klaus Gerhorstststst</span><span class="time"> 16:19, 1. May 2012</span></div></div>
 <div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">OK, now it also works when your name is a bit longer.</span><span class="time"> 16:19, 1. May 2012</span></div></div>
+<div class="entry"><div class="name">Patrick:</div><div class="content"><span class="message">hi</span><span class="time"> 14:53, 3. May 2012</span></div></div>
+<div class="entry"><div class="name">Patrick:</div><div class="content"><span class="message">hi</span><span class="time"> 14:53, 3. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Testing.</span><span class="time"> 15:40, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Is it working?</span><span class="time"> 15:41, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Playing with placeholder.</span><span class="time"> 15:48, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">WQorking?</span><span class="time"> 16:39, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Now?</span><span class="time"> 16:40, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Nope.</span><span class="time"> 16:41, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Yay!</span><span class="time"> 16:41, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">great!</span><span class="time"> 16:41, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">i like it.</span><span class="time"> 16:42, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">thats great</span><span class="time"> 16:42, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Now, after the you hit enter, the placeholder changes to "Sending" and 1,5s later it changes to "Sent" and then back to "Message""</span><span class="time"> 16:43, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">try</span><span class="time"> 16:43, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">hmmm</span><span class="time"> 16:46, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">try</span><span class="time"> 16:46, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">like</span><span class="time"> 16:46, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">try</span><span class="time"> 16:47, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">try</span><span class="time"> 16:47, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">me</span><span class="time"> 16:47, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Works best in Safari.</span><span class="time"> 16:47, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">try</span><span class="time"> 16:48, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">better now</span><span class="time"> 16:49, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">nopw</span><span class="time"> 16:49, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">it's ok now</span><span class="time"> 16:50, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Webkit is so great.</span><span class="time"> 16:56, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Firefox not.</span><span class="time"> 16:58, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">A list with the people who are online would also be great, but I don't know how to do that.</span><span class="time"> 17:16, 4. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Hello?</span><span class="time"> 11:46, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">&lt;b&gt;Hi&lt;/b&gt;</span><span class="time"> 16:30, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">ÄÖÜ</span><span class="time"> 16:30, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">works.</span><span class="time"> 16:30, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">pff</span><span class="time"> 16:36, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">&lt;a href=&quot;/&quot;&gt;Link &amp;&lt;/a&gt;&lt;a href=/&quot;&gt;Link &amp;&lt;/a&gt;</span><span class="time"> 16:37, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">&lt;!-- Hi --&gt;</span><span class="time"> 16:37, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Fabian:</div><div class="content"><span class="message">htmlspecialchars &lt;3</span><span class="time"> 22:29, 5. May 2012</span></div></div>
+<div class="entry"><div class="name">Jamie:</div><div class="content"><span class="message">Very nice, Luis!</span><span class="time"> 11:21, 6. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Thanks @Jamie!</span><span class="time"> 16:03, 6. May 2012</span></div></div>
+<div class="entry"><div class="name">Fabian:</div><div class="content"><span class="message">Sieht auf jeden Fall gut aus, Courier New ist einfach awesome :D</span><span class="time"> 02:52, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">aaaa:</div><div class="content"><span class="message">ddddd</span><span class="time"> 08:18, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">aaaa:</div><div class="content"><span class="message">ddddd</span><span class="time"> 08:18, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">aaaa:</div><div class="content"><span class="message">田</span><span class="time"> 08:18, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">@Fabian Courier New? Hab eigentlich das normale Courier genommen. Muss ich mir gleich mal anschauen.</span><span class="time"> 17:10, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">So, jetzt probier ich gleich mal Courier New.</span><span class="time"> 17:12, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">@Name Funzt?</span><span class="time"> 17:28, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Nope.</span><span class="time"> 17:28, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Hmm, Courier New sieht echt cool aus (ein bisschen dünner <a href="http://cl.ly/GQvS">http://cl.ly/GQvS</a>) aber ich denk ich bleib trotzdem bei Courier.</span><span class="time"> 17:38, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">This chat on Github <a href="https://github.com/luisgerhorst/chat">https://github.com/luisgerhorst/chat</a></span><span class="time"> 17:43, 7. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">&quot;&quot; '' ' &quot;</span><span class="time"> 18:35, 8. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">where's where&quot;s</span><span class="time"> 18:36, 8. May 2012</span></div></div>
+<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;</span><span class="time"> 18:41, 8. May 2012</span></div></div>

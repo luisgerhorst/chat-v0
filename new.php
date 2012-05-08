@@ -5,7 +5,7 @@
 $name = $_POST["name"]; // $name ist nun der per POST übergebene Name aus dem Formular
 
 $message = $_POST["message"]; // $content ist nun die per POST übergebene Nachricht aus dem Formular
-$message = str_replace("\n", "<br>", $message);
+$message = htmlspecialchars($message); // covertiert HTML Tags
 $message = ereg_replace("[[:alpha:]]+://[^<>[:space:]]+[[:alnum:]/]","<a href=\"\\0\">\\0</a>", $message); // macht Links (http://) anklickbar
 
 if ($message == "" or $name == "") // wenn nicht beide Felder ausgefüllt sind wird nichts gemacht
