@@ -1,6 +1,8 @@
 <html>
 <head>
 
+<!-- Version 1.1 Build 2 -->
+
   <title>Chat</title>
   
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
