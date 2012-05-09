@@ -31,7 +31,8 @@ function loadChat()
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-            document.getElementById("chat").innerHTML=xmlhttp.responseText; 
+            document.getElementById("chat").innerHTML = ""; // leert #chat
+            document.getElementById("chat").innerHTML=xmlhttp.responseText; // befüllt #chat
         }
     });
 }
@@ -40,14 +41,13 @@ function loadChat()
 // ruft loadChat() nach laden direkt auf
 document.onload = loadChat();
 
-
 // ruft loadChat() jede Sekunde einmal auf
 setInterval(function() {
-  loadChat()
+  loadChat();
 }, 1000);
   
   
-}); // document ready
+}); // document.ready
  
 
 // bei Enter Taste werden Formluardaten per Ajax verschickt
@@ -65,14 +65,16 @@ if(e && e.keyCode == 13) { // wenn Taste (e) Enter ist (keycode 13) wird
     url: 'new.php', // Ort des Skriptes in dem die per POST übertragenen Daten verarbeitet werden sollen
     type: 'POST', // Angabe der POST Methode, GET ginge auch
     data: data, // Daten die gesendet werden sollen
-    success: function (reqCode) { // bei Antwort des Requests
+    success: function () { // bei Antwort des Requests
+      
       $('#new_message').val(''); // lehrt #new_message
       window.setTimeout(function() {
         $('#new_message').attr('placeholder', 'Sent.'); // placeholder after 1,5s to "Sent."
         window.setTimeout(function() {
           $('#new_message').attr('placeholder', 'Message'); // placeholder after 1s to default
         }, 1000);
-      }, 1200);
+      }, 1500);
+      
     } // success
     
   }); // ajax request
