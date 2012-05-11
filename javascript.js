@@ -32,7 +32,7 @@ function loadChat()
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
             document.getElementById("chat").innerHTML = ""; // leert #chat
-            document.getElementById("chat").innerHTML=xmlhttp.responseText; // befüllt #chat
+            document.getElementById("chat").innerHTML = xmlhttp.responseText; // befüllt #chat
         }
     });
 }
@@ -41,10 +41,10 @@ function loadChat()
 // ruft loadChat() nach laden direkt auf
 document.onload = loadChat();
 
-// ruft loadChat() jede Sekunde einmal auf
+// ruft loadChat() alle 2 Sekunden auf
 setInterval(function() {
   loadChat();
-}, 1000);
+}, 2000);
   
   
 }); // document.ready

@@ -1,1 +1,1 @@
-<div class="entry"><div class="name">Chat:</div><div class="content"><span class="message">Type in your message and hit enter to send.</span><span class="time"></span></div></div>
+<div class="entry"><div class="name">Chat:</div><div class="content"><span class="message">Type in your message and hit enter to submit.</span><span class="time"></span></div></div>
