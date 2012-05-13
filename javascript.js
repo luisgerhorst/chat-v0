@@ -64,7 +64,7 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 window.onload = function () {
     loadChat();
     scrollToBottom();
-    $('#new_name').val(GET(name));
+    $('#new_name').val(GET("name"));
 };
 
 
