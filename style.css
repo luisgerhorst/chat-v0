@@ -58,6 +58,10 @@ a {
     display: inline;
     }
     
+#chat .message b {
+    font-weight: bold;
+    }
+    
 #chat .time {
     color: rgb(160,160,160);
     opacity: 0.0;
