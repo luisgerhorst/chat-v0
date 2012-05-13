@@ -35,9 +35,7 @@ function loadChat() {
 } // loadChat()
 
 
-// ruft loadChat() nach laden direkt auf
-window.onload = function () { 
-    loadChat();
+function scrollToBottom() {
     window.setTimeout(function() { window.scrollTo(0,document.body.scrollHeight); }, 200);
     window.setTimeout(function() { window.scrollTo(0,document.body.scrollHeight); }, 250);
     window.setTimeout(function() { window.scrollTo(0,document.body.scrollHeight); }, 300);
@@ -45,6 +43,13 @@ window.onload = function () {
     window.setTimeout(function() { window.scrollTo(0,document.body.scrollHeight); }, 400);
     window.setTimeout(function() { window.scrollTo(0,document.body.scrollHeight); }, 450);
     window.setTimeout(function() { window.scrollTo(0,document.body.scrollHeight); }, 500);
+}
+
+
+// ruft loadChat() nach laden direkt auf
+window.onload = function () { 
+    loadChat();
+    scrollToBottom();
 };
 
 // ruft loadChat() alle 2 Sekunden auf
@@ -63,7 +68,7 @@ if(e && e.keyCode == 13) { // wenn Taste (e) Enter ist (keycode 13) wird
   var message = $('#new_message').val(); // Value von #new_message zu Javascript Variable "message"
   $('#new_message').attr('placeholder', 'Sending…'); // placeholder ist jetzt "Sending…"
  
-  var entry = 'name=' + name + '&message='  + encodeURIComponent(message); // die Inhalte (Value) der Formulars sollen per POST an das PHP Skript weitergeleitet werden. Dafür bauen wir einen String
+  var entry = 'name=' + encodeURIComponent(name) + '&message='  + encodeURIComponent(message); // die Inhalte (Value) der Formulars sollen per POST an das PHP Skript weitergeleitet werden. Dafür bauen wir einen String
  
   $.ajax({ // Formulardaten abschicken (Request)
 

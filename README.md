@@ -1,1 +1,1 @@
-The javascript.js sends the message (using Ajax) to new.php which writes it (including current time and HTML Tags) into chatlog.txt. Javascript.js loads the content of chatlog.txt one time a second into the div #chat.
+The javascript sends the message (using Ajax) to save.php that writes it (including current time and HTML Tags) into chatlog.txt. javascript.js loads the content of chatlog.txt regularly into the div #chat.
