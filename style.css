@@ -1,3 +1,5 @@
+/* Version p.1.1.1 Build 2 */
+
 /* Allgemein */
 
 body {
@@ -143,4 +145,55 @@ a {
     margin-left: 20px;
     margin-bottom: -8px;
     border-radius: 0 5px 5px 0;
+    }
+    
+/* Fail */
+
+#fail {
+    padding: 50px 0 50px 0;
+    }
+    
+
+    /* ID Form */
+
+#id_form input {
+    float: left;
+    font-family: Courier, monospace;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 15px;
+    height: 25px;
+    padding: 5px;
+    width: 250px;
+    margin: 10px 0;
+    color: rgb(85,85,95);
+    -webkit-appearance: none; /* remove iOS inner shadow */
+    resize: none;
+    background: rgb(236,236,236) url(background-form.png);
+    border: 1px solid rgb(196,198,200);
+    box-shadow: 0 0 0 1px #fff, inset 0 0 0 1px rgb(230,230,230);
+    text-shadow: 0 1px #fff;
+    transition-property: box-shadow, border, background;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    -webkit-transition-property: box-shadow, border, background;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-property: box-shadow, border, background;
+    -moz-transition-duration: 0.1s;
+    -moz-transition-timing-function: linear;
+    -o-transition-property: box-shadow, border, background;
+    -o-transition-duration: 0.1s;
+    -o-transition-timing-function: linear;
+    }
+    
+#id_form input:focus {
+    outline: none; /* remove Safari blue glow */
+    background: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+    }
+    
+#id_form input::input-placeholder, #id_form input::-webkit-input-placeholder, #id_form input::-moz-input-placeholder, #id_form input::-o-input-placeholder {
+    color: rgb(140,140,140);
     }

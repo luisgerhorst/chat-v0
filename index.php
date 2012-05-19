@@ -1,7 +1,16 @@
 <html>
 <head>
 
-<!-- Version 1.1 Build 3 -->
+<!-- Version p.1.1 Build 4 -->
+
+  <?php
+  
+  // Options
+
+  $password = "yourPasswordHere";
+
+  ?>
+  
 
   <title>Chat</title>
   
@@ -19,6 +28,12 @@
 
 <div id="wrapper">
 
+<?php 
+
+  $id = $_POST["id"]; // POST zu Javascript Variable
+  if($id == $password): // wenn id richtig ist Seite einblenden
+
+?>
 
 <div id="chat"><noscript><p>You have to enable Javascript to use this chat.</p></noscript></div> <!-- #chat (wird durch Javascript mit Inhalt von chatlog.txt befüllt) -->
 
@@ -30,6 +45,21 @@
   <input class="message" id="new_message" name="message" placeholder="Message" onKeyPress="return checkSubmit(event)" autocomplete="off" > <!-- onKeyPress="return checkSubmit(event)" ruft Javascript Funktion (checkSubmit) auf die die Formulardaten per Ajax abschickt wenn gedrückte Taste (event) Enter ist -->
 
 </form> <!-- #new -->
+
+
+<?php else: ?>
+
+<div id="fail">
+
+  <p>This chat is private. You need the right password to use it.</p>
+
+  <form id="id_form" action="" method="post">
+    <input class="id" name="id" placeholder="Password" autocomplete="on">
+  </form> <!-- #id_form -->
+
+</div>
+
+<?php endif; ?>
 
 
 </div> <!-- #wrapper -->
