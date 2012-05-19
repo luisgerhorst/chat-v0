@@ -61,10 +61,10 @@ if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i
 
 
 // ruft loadChat() nach laden direkt auf, scrollt nach unten und setzt den Value von #new_name auf den per GET übergebenen Namen "name"
-window.onload = function () {
+window.onload = function() {
+    $('#new_name').val(GET("name"));
     loadChat();
     scrollToBottom();
-    $('#new_name').val(GET("name"));
 };
 
 
