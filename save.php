@@ -27,6 +27,7 @@ if ($message == "" or $name == "") {} // wenn $message oder $name keinen Inhalt 
 
 else { // wenn beide ausgefüllt sind schon
     file_put_contents("chatlog.txt", $entry."\n\r", FILE_APPEND); // Fügt $entry zu chatlog.txt hinzu
+    // mail('chat@luisgerhorst.de', $name." - ".$time, $name.": ".$message."\n\n".$time, "From:" $name." <".$name."@message.com>\n\r"); // schickt mir eine E-Mail
     }
     
 ?>
