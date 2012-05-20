@@ -1,13 +1,17 @@
 <html>
 <head>
 
-<!-- Version p.1.1 Build 4 -->
+<!-- Version p.1.1.2 Build 5 -->
 
   <?php
   
   // Options
 
-  $password = "yourPasswordHere";
+  $password = "olf600";
+  
+  // Variable
+  
+  $id = $_POST["id"];
 
   ?>
   
@@ -20,7 +24,7 @@
   
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="jquery.js"></script>
-  <script type="text/javascript" src="javascript.js"></script>
+  <?php if($id == $password): ?><script type="text/javascript" src="javascript.js"></script><?php endif; ?>
 
 
 </head>
@@ -28,24 +32,17 @@
 
 <div id="wrapper">
 
-<?php 
-
-  $id = $_POST["id"]; // POST zu Javascript Variable
-  if($id == $password): // wenn id richtig ist Seite einblenden
-
-?>
+<?php if($id == $password): // wenn id richtig ist Seite einblenden ?>
 
 <div id="chat"><noscript><p>You have to enable Javascript to use this chat.</p></noscript></div> <!-- #chat (wird durch Javascript mit Inhalt von chatlog.txt befüllt) -->
 
-
-<form class="form" id="new" action="save.php" method="POST">
+<form class="form" id="new">
 
   <input class="name" id="new_name" name="name" placeholder="       Name" autocomplete="off">
 
   <input class="message" id="new_message" name="message" placeholder="Message" onKeyPress="return checkSubmit(event)" autocomplete="off" > <!-- onKeyPress="return checkSubmit(event)" ruft Javascript Funktion (checkSubmit) auf die die Formulardaten per Ajax abschickt wenn gedrückte Taste (event) Enter ist -->
 
 </form> <!-- #new -->
-
 
 <?php else: ?>
 
@@ -60,7 +57,6 @@
 </div>
 
 <?php endif; ?>
-
 
 </div> <!-- #wrapper -->
 

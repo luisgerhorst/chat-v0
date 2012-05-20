@@ -1,5 +1,7 @@
 <?php
 
+/* Version p.1.1.2 Build 2 */
+
 /* Die Formulardaten werden durch Javascript (Ajax) per POST and diese Datei geschickt, sie schreibt sie als HTML in chatlog.txt */
 
 function htmlencode ($string) {
