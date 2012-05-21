@@ -1,4 +1,4 @@
-/* Version p.1.1.2 Build 3 */
+/* Version 1.1 Build 1 */
 
 $(document).ready(function () {
 

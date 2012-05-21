@@ -1,20 +1,8 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 
-<!-- Version p.1.1.2 Build 5 -->
-
-  <?php
-  
-  // Options
-
-  $password = "olf600";
-  
-  // Variable
-  
-  $id = $_POST["id"];
-
-  ?>
-  
+<!-- Version 1.1 Build 4 -->
 
   <title>Chat</title>
   
@@ -24,7 +12,7 @@
   
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="jquery.js"></script>
-  <?php if($id == $password): ?><script type="text/javascript" src="javascript.js"></script><?php endif; ?>
+  <script type="text/javascript" src="javascript.js"></script>
 
 
 </head>
@@ -32,31 +20,18 @@
 
 <div id="wrapper">
 
-<?php if($id == $password): // wenn id richtig ist Seite einblenden ?>
 
 <div id="chat"><noscript><p>You have to enable Javascript to use this chat.</p></noscript></div> <!-- #chat (wird durch Javascript mit Inhalt von chatlog.txt befüllt) -->
 
-<form class="form" id="new">
 
-  <input class="name" id="new_name" name="name" placeholder="       Name" autocomplete="off">
+<form class="form" id="new" action="save.php" method="POST">
+
+  <input class="name" id="new_name" name="name" placeholder="      Name" autocomplete="on">
 
   <input class="message" id="new_message" name="message" placeholder="Message" onKeyPress="return checkSubmit(event)" autocomplete="off" > <!-- onKeyPress="return checkSubmit(event)" ruft Javascript Funktion (checkSubmit) auf die die Formulardaten per Ajax abschickt wenn gedrückte Taste (event) Enter ist -->
 
 </form> <!-- #new -->
 
-<?php else: ?>
-
-<div id="fail">
-
-  <p>This chat is private. You need the right password to use it.</p>
-
-  <form id="id_form" action="" method="post">
-    <input class="id" name="id" placeholder="Password" autocomplete="on">
-  </form> <!-- #id_form -->
-
-</div>
-
-<?php endif; ?>
 
 </div> <!-- #wrapper -->
 
