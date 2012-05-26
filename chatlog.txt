@@ -1,3 +1,0 @@
-<div class="entry"><div class="name">Chat:</div><div class="content"><span class="message">Type in your <a href="#new">message</a> and hit enter to submit. Use an @ to mention other users, URLs are hyperlinked.</span><span class="time"></span></div></div>
-<div class="entry"><div class="name">Luis:</div><div class="content"><span class="message">Ok... </span><span class="time">22:46, 26. May 2012 Europe/Berlin</span></div></div>
-
