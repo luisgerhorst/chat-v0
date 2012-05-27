@@ -11,7 +11,7 @@
   
   // Variable
   
-  $id = $_POST["id"];
+  $id = $_POST['id']; 
 
   ?>
   
@@ -38,7 +38,7 @@
 
 <form class="form" id="new">
 
-  <input class="name" id="new_name" name="name" placeholder="       Name" autocomplete="off">
+  <input class="name" id="new_name" name="name" placeholder="    Name" autocomplete="off">
 
   <input class="message" id="new_message" name="message" placeholder="Message" onKeyPress="return checkSubmit(event)" autocomplete="off" > <!-- onKeyPress="return checkSubmit(event)" ruft Javascript Funktion (checkSubmit) auf die die Formulardaten per Ajax abschickt wenn gedrückte Taste (event) Enter ist -->
 

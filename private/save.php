@@ -18,7 +18,9 @@ $name = htmlencode($name); // encodiert HTML Tags
 
 $message = $_POST["message"]; // $content ist nun die per POST übergebene Nachricht aus dem Formular
 $message = htmlencode($message); // encodiert HTML Tags
-$message = ereg_replace("[[:alpha:]]+://[^<>[:space:]]+[[:alnum:]/]","<a href=\"\\0\">\\0</a>", $message); // macht Links (http://) anklickbar
+$message = $message." "; // hängt Lehreichen an das Ende der Nachricht
+$message = preg_replace("/(?<!http:\/\/)www\./","http://www.",$message); // setzt http:// vor www.
+$message = preg_replace( "/((http|ftp)+(s)?:\/\/[^<>\s]+)/i", "<a href=\"\\0\" target=\"_blank\">\\0</a>",$message); // macht Links (http://) anklickbar
 $message = preg_replace("/@(.*) /Us", "<b>@\\1</b> ", $message); // schreibt wörter die mit einem @ beginnen fett
 
 $time = date("H:i, j. F Y e"); // aktuelle Zeit wird ermittelt und ist nun im passendem Format durch $time abrufbar
@@ -29,7 +31,6 @@ if ($message == "" or $name == "") {} // wenn $message oder $name keinen Inhalt 
 
 else { // wenn beide ausgefüllt sind schon
     file_put_contents("chatlog.txt", $entry."\n\r", FILE_APPEND); // Fügt $entry zu chatlog.txt hinzu
-    // mail('chat@luisgerhorst.de', $name." - ".$time, $name.": ".$message."\n\n".$time, "From:" $name." <".$name."@message.com>\n\r"); // schickt mir eine E-Mail
     }
     
 ?>
