@@ -7,7 +7,7 @@
 
 // Options
 
-$admin_password = "olf600"; // set the admin password that is used to reset the chat
+$admin_password = "olf"; // set the admin password that is used to reset the chat
 
 // End Options
 
