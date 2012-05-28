@@ -91,7 +91,7 @@ if(e && e.keyCode == 13) { // wenn Taste (e) Enter ist (keycode 13) wird
  
   $.ajax({ // Formulardaten abschicken (Request)
 
-    url: 'save.php', // Ort des Skriptes in dem die per POST übertragenen Daten verarbeitet werden sollen
+    url: 'write.php', // Ort des Skriptes in dem die per POST übertragenen Daten verarbeitet werden sollen
     type: 'POST', // Angabe der POST Methode, GET ginge auch
     data: entry, // Daten die gesendet werden sollen
     success: function () { // bei Antwort des Requests
@@ -101,7 +101,7 @@ if(e && e.keyCode == 13) { // wenn Taste (e) Enter ist (keycode 13) wird
         window.setTimeout(function() {
           $('#new_message').attr('placeholder', 'Message'); // placeholder nach 1s zum default ändern
         }, 1000);
-      }, 2000);
+      }, 1000);
     } // success
     
   }); // ajax request
