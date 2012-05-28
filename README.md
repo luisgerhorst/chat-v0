@@ -33,6 +33,6 @@ If you want to make the chat really secure, you should rename the files chatlog.
 
 After you replaced the names, for example, javascript.js line 31 should look a bit like this:
 
-     loadXMLDoc("chatlog-hsahdf56234sajd643hjhw7k.txt",function() {
+    loadXMLDoc("chatlog-hsahdf56234sajd643hjhw7k.txt",function() {
 
 **Note:** Both version of the chat can be used independently, you can delete /private or move the content of /private into any other folder. Just make shure that all files in /private or / are in the same folder.
