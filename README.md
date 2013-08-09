@@ -1,4 +1,9 @@
-**There's a more current version of the chat which is based on node.js and works much better. Only use this version if your server doesn't support node.js. http://github.com/luisgerhorst/node-chat**
+# Features
+
+- PHP saves the messages into a text file
+- Client loads text file using AJAX
+
+# How it works
 
 The javascript.js sends the message (using Ajax) to write.php which writes it (including current time and HTML Tags) into chatlog.txt. Javascript.js loads the content of chatlog.txt one time a second into the div #chat.
 
